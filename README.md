@@ -8,7 +8,7 @@ Este projeto consiste na limpeza, tratamento e análise exploratória de uma bas
 
 O objetivo principal deste notebook foi realizar a verificação de consistência e a limpeza inicial dos dados (*data wrangling*), preparando a base para análises estatísticas e possíveis modelagens preditivas de preços de imóveis.
 
-### 🛠️ Tecnologias e Ferramentas Utilizadas
+###  Tecnologias e Ferramentas Utilizadas
 * **Linguagem:** Python
 * **Ambiente:** Databricks / Jupyter Notebook
 * **Manipulação de Dados:** `pandas`
