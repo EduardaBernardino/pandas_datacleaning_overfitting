@@ -65,6 +65,6 @@ Esse resultado atipicamente alto acendeu um alerta para o risco de **Overfitting
 * **Ajuste Excessivo:** O modelo memorizou os dados de treino em vez de aprender padrões generalizáveis.
 
 ---
-   * Após a limpeza, o dataset resultou em **2.767 registros válidos** e **15 colunas**[cite: 1].
+   * Após a limpeza, o dataset resultou em **2.767 registros válidos** e **15 colunas**.
 
 ---
