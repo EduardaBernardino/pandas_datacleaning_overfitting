@@ -1,10 +1,10 @@
-# 🏠 Análise e Tratamento de Dados: Preços de Aluguel em São Paulo (QuintoAndar)
+#  Análise e Tratamento de Dados: Preços de Aluguel em São Paulo (QuintoAndar)
 
 Este projeto consiste na limpeza, tratamento e análise exploratória de uma base de dados sobre valores de aluguel de imóveis na cidade de São Paulo, coletados da plataforma QuintoAndar.
 
 ---
 
-## 📌 Visão Geral do Projeto
+##  Visão Geral do Projeto
 
 O objetivo principal deste notebook foi realizar a verificação de consistência e a limpeza inicial dos dados (*data wrangling*), preparando a base para análises estatísticas e possíveis modelagens preditivas de preços de imóveis.
 
@@ -16,7 +16,7 @@ O objetivo principal deste notebook foi realizar a verificação de consistênci
 
 ---
 
-## 📊 Estrutura da Base de Dados
+##  Estrutura da Base de Dados
 
 A base conta originalmente com **2.775 registros** e **16 colunas**, abrangendo características físicas e custos associados aos imóveis:
 
@@ -40,7 +40,7 @@ A base conta originalmente com **2.775 registros** e **16 colunas**, abrangendo 
 
 ---
 
-## 🧹 Etapas do Tratamento de Dados (Data Cleaning)
+##  Etapas do Tratamento de Dados (Data Cleaning)
 
 1. **Tratamento de Valores Nulos:**
    * **Condomínio:** Foram identificados 7 registros com valor nulo na coluna `condominio`[cite: 1]. Como esses imóveis representavam casas ou locais sem taxa condominial, os valores nulos foram preenchidos com `0`[cite: 1].
@@ -50,11 +50,11 @@ A base conta originalmente com **2.775 registros** e **16 colunas**, abrangendo 
 3. **Validação do Dataset:**
 4. 
 ---
-## 🤖 Modelagem com Regressão Linear e Alerta de Overfitting
+##  Modelagem com Regressão Linear e Alerta de Overfitting
 
 Neste projeto, foi implementado um modelo de **Regressão Linear** para avaliar a relação entre as variáveis preditoras e a variável alvo.
 
-### ⚠️ Alerta de Overfitting (Superajuste)
+###  Alerta de Overfitting (Superajuste)
 Ao rodar o modelo de Regressão Linear, obteve-se uma pontuação de precisão/acurácia ($R^2$) de **0.99**. 
 
 Esse resultado atipicamente alto acendeu um alerta para o risco de **Overfitting** (ou vazamento de dados/*Data Leakage*). 
