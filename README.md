@@ -44,10 +44,10 @@ A base conta originalmente com **2.775 registros** e **16 colunas**, abrangendo 
 ##  Etapas do Tratamento de Dados (Data Cleaning)
 
 1. **Tratamento de Valores Nulos:**
-   * **Condomínio:** Foram identificados 7 registros com valor nulo na coluna `condominio`[cite: 1]. Como esses imóveis representavam casas ou locais sem taxa condominial, os valores nulos foram preenchidos com `0`[cite: 1].
-   * **IPTU:** 8 registros nulos na coluna `iptu` foram removidos da análise[cite: 1].
+   * **Condomínio:** Foram identificados 7 registros com valor nulo na coluna `condominio`. Como esses imóveis representavam casas ou locais sem taxa condominial, os valores nulos foram preenchidos com `0`.
+   * **IPTU:** 8 registros nulos na coluna `iptu` foram removidos da análise.
 2. **Seleção de Atributos:**
-   * A coluna `url` foi descartada por não agregar valor analítico/estatístico ao modelo[cite: 1].
+   * A coluna `url` foi descartada por não agregar valor analítico/estatístico ao modelo.
 3. **Validação do Dataset:**
 4. 
 ---
